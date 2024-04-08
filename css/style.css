@@ -1,0 +1,48 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Arimo");
+
+@import url("https://fonts.googleapis.com/css2?family=Wix+Madefor+Text");
+
+@import url("https://fonts.googleapis.com/css2?family=Kalam");
+
+/*Import components*/
+@import url("components/container.css");
+
+@import url("components/banner.css");
+
+@import url("components/button.css");
+
+@import url("components/avatar.css");
+
+@import url("components/card.css");
+
+/* General style rules for fonts and colors */
+h1{
+	font-family: 'Arimo', sans-serif; 
+    font-size: 32px;
+    color: rgb(55, 61, 52); 
+}
+
+h2, h3{
+	font-family: 'Arimo', sans-serif; 
+    font-size: 18px;
+    color: rgba(41, 45, 39, 0.8);
+}
+
+body{
+	background: rgb(189, 176, 160); 
+	font-family: 'Arimo', sans-serif;
+	font-size: 15px;
+	color: rgba(45, 51, 42, 0.6);
+	margin: 0px;
+}
+
+.frstitle{
+	font-size: 30px;
+}
+
+.kalam-light{
+  font-family: "Kalam", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
